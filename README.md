@@ -25,7 +25,7 @@ Write-Host "Notification file created: $appName-notification.json"
 ````
 <br><h2>Formularios</h2>
 Realizamos formularios con PowerShell los cuales deberían tener ciertas peculiaridades como la **automatización**, el **guardado de datos en ficheros .txt**, o que **al pulsar en un botón de uno de los formularios se abriese otro formulario**.
-El formulario que yo desarrolle consistía en crear un primer formulario para introducir un correo electrónico y al pulsar el botón de guardar se abrirá otro donde se debería introducir la contraseña.Al pulsar el botón de guardar se guardaría todo lo introducido en un .txt
+<br>El formulario que yo desarrolle consistía en crear un primer formulario para introducir un correo electrónico y al pulsar el botón de guardar se abrirá otro donde se debería introducir la contraseña.Al pulsar el botón de guardar se guardaría todo lo introducido en un .txt
 ````
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName PresentationFramework
