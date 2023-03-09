@@ -24,8 +24,8 @@ $notification | ConvertTo-Json | Out-File "$appName-notification.json"
 Write-Host "Notification file created: $appName-notification.json"
 ````
 <br><h2>Formularios</h2>
-La entrega de formularios consistió en realizar formularios con PowerShell y los cuales tuvieran ciertas peculiaridades como la automatización, el guardado de datos en ficheros .txt, o que al pulsar en un botón de uno de los formularios se abriese otro.
-El formulario que yo desarrolle consistía en que primero se formaría un formulario para introducir un correo electrónico y al darle al botón de guardar se abriría otro donde se debería introducir la contraseña,al pulsar el botón de guardar se guardaría todo lo introducido en un .txt
+Realizamos formularios con PowerShell los cuales deberían tener ciertas peculiaridades como la **automatización**, el **guardado de datos en ficheros .txt**, o que **al pulsar en un botón de uno de los formularios se abriese otro formulario**.
+El formulario que yo desarrolle consistía en crear un primer formulario para introducir un correo electrónico y al pulsar el botón de guardar se abrirá otro donde se debería introducir la contraseña.Al pulsar el botón de guardar se guardaría todo lo introducido en un .txt
 ````
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName PresentationFramework
