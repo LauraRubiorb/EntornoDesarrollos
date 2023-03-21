@@ -1,5 +1,5 @@
 # EntornoDesarrollos
-Repositorio destinado ha realizar un resumen de las entregas y los conceptos aprendidos durante el segundo trimestre en la asignatura de Entorno de Desarrollos
+Repositorio destinado ha realizar un resumen de las entregas y los conceptos aprendidos durante el segundo trimestre en la asignatura de Entorno de Desarrollos.
 <br><h2>Entregar una automatizacion</h2>
 Desarrolle una automatización con PowerShell centrada en el proyecto del anterior trimestre (aplicacion para el abono transporte) la cual consistía en una automatización de las notificaciones de información, de error y de avisos. 
 ````
@@ -84,7 +84,7 @@ $emailForm.ShowDialog()
 <br><h2>Diseño, realización de pruebas y optimización</h2>
 Nos centramos en las pruebas de código,en la depuración de programas y en su optimización.
 Durante la clase realizamos un ejercicio en el cual teniamos que optimizar al máximo posible un código.
-El código de a continuación se divide en varias partes donde tenemos el código original sin la depuración realizada, y a continuación las siguientes pruebas y reformas que se le van haciendo
+El código de a continuación se divide en varias partes donde tenemos el código original sin la depuración realizada, y a continuación las siguientes pruebas y reformas que se le van haciendo.
 ````
 public class Beca {
 
